@@ -1,0 +1,82 @@
+body {
+  left: 0;
+  top: 0;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.heading1 {
+  color: #0D8CCD;
+  font-size: 16px;
+  background-color: #000;
+  display: flex;
+  justify-content: center;
+}
+
+.textbox h1 {
+  color: red;
+}
+.textbox h1:hover {
+  color: black;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.slider-image-box {
+  height: 660px;
+  width: 100%;
+  cursor: pointer;
+  background-position: top !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+}
+
+.slick-active-main .slick-dots {
+  bottom: 90px;
+}
+.slick-active-main .slick-dots li button:before {
+  content: " " !important;
+  background-color: #b5b5b5 !important;
+  border-radius: 7px;
+  height: 10px;
+  width: 22px;
+  opacity: initial;
+}
+.slick-active-main .slick-dots li.slick-active button:before {
+  background-color: #042cb0 !important;
+}
+
+.online-card-min {
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 100%);
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+.card-index-show {
+  position: relative;
+  z-index: 999;
+}
+.card-index-show h6 {
+  color: #fff;
+  max-width: 120px;
+  margin-bottom: 20px;
+}
+.card-index-show p {
+  color: #fff;
+}
+
+.rating-style .MuiRating-root {
+  font-size: 17px;
+  color: #df6e12;
+}
+
+.MuiList-padding {
+  padding: 10px !important;
+}/*# sourceMappingURL=main.css.map */
