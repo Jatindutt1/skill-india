@@ -13,7 +13,7 @@ const useStyles = makeStyles((theme) => ({
     borderRadius: "10px",
     position: "relative",
     padding: "30px",
-    marginTop: "-80px",
+    marginTop:"-80px",
   },
   mainBox: {
     display: "flex",
