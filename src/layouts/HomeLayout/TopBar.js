@@ -544,12 +544,10 @@ export default function Header() {
         </Container>
       </Box>
       <AppBar
-        // position={history.location.pathname !== "/" ? "relative" : "absolute"}
         elevation={0}
         style={{ backgroundColor: "#EAEAEA", border: "none", position: "sticky", top: "0px" }}
       >
         <Container
-          // maxWidth={history.location.pathname !== "/" ? "lg" : "fixed"}
           className={containerHeight}
         >
           {mobileView ? displayMobile() : displayDesktop()}
