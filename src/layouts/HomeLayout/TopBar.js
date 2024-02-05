@@ -294,10 +294,6 @@ export default function Header() {
   const [open1, setOpen1] = useState({ community: false, user: false });
   const anchorRef = { community: useRef(null), user: useRef(null) };
 
-  // const handleToggle = (name) => {
-  //   setOpen1({ ...open1, [name]: !open1[name] });
-  // };
-
   const handleClose2 = (event, name) => {
     if (
       anchorRef[name].current &&
