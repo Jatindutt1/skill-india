@@ -14,6 +14,10 @@ const useStyles = makeStyles((theme) => ({
     position: "relative",
     padding: "30px",
     marginTop:"-80px",
+    [theme.breakpoints.down("sm")]:{
+      padding: "10px",
+
+    },
   },
   mainBox: {
     display: "flex",
@@ -35,6 +39,9 @@ const useStyles = makeStyles((theme) => ({
     textAlign: "left",
     border: "1px solid #CCCCCC",
     alignItems: "center",
+    [theme.breakpoints.down("sm")]:{
+      minWidth: "220px",
+    },
     "& h3": {
       color: "#666666",
       fontWeight: "300",
@@ -45,7 +52,6 @@ const useStyles = makeStyles((theme) => ({
     },
   },
   TabsButtonActive: {
-    background: "#F9F9F9",
     borderRadius: "10px",
     margin: "5px",
     padding: "13px 20px",
@@ -62,6 +68,9 @@ const useStyles = makeStyles((theme) => ({
     background: "#FDF2E9",
     borderBottom: "4px solid #DF6E12",
     position: "relative",
+    [theme.breakpoints.down("sm")]:{
+      minWidth: "220px",
+    },
     "& h3": {
       fontSize: "22px",
       fontWeight: "600"

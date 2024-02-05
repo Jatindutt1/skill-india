@@ -14,8 +14,9 @@ export default function SecBanner() {
           <Box>
             <Grid container spacing={3}>
               <Grid item xs={12} sm={6} md={4}>
-                <Box textAlign="center">
+                <Box textAlign="center" className="skillCards">
                   <img
+                   className="floating-image1"
                     src="https://www.skillindiadigital.gov.in/assets/new-ux-img/discovery-home/start-learn/citizen-centric.svg"
                     alt=""
                   />
@@ -36,14 +37,15 @@ export default function SecBanner() {
                 </Box>
               </Grid>
               <Grid item xs={12} sm={6} md={4}>
-                <Box textAlign="center">
+                <Box textAlign="center" className="skillCards">
                   <img
+                  className="floating-image2"
                     src="https://www.skillindiadigital.gov.in/assets/new-ux-img/discovery-home/start-learn/career-focussed.svg"
                     alt=""
                   />
                   <Box mt={3}>
                     <Typography variant="h3" style={{ fontWeight: "600" }}>
-                      Citizen Centric
+                    Career Focussed
                     </Typography>
                   </Box>
                   <Box mt={2} display="flex" justifyContent="center">
@@ -57,14 +59,15 @@ export default function SecBanner() {
                 </Box>
               </Grid>
               <Grid item xs={12} sm={6} md={4}>
-                <Box textAlign="center">
+                <Box textAlign="center" className="skillCards">
                   <img
+                  className="floating-image3"
                     src="https://www.skillindiadigital.gov.in/assets/new-ux-img/discovery-home/start-learn/multilingual.svg"
                     alt=""
                   />
                   <Box mt={3}>
                     <Typography variant="h3" style={{ fontWeight: "600" }}>
-                      Citizen Centric
+                    Multilingual
                     </Typography>
                   </Box>
                   <Box mt={2} display="flex" justifyContent="center">
@@ -72,8 +75,7 @@ export default function SecBanner() {
                       variant="body2"
                       style={{ color: "#333333", maxWidth: "300px" }}
                     >
-                      Designed to meet the skilling needs of India’s diverse and
-                      aspirational population
+                      Explore Skill India Digital in Multiple Indian languages
                     </Typography>
                   </Box>
                 </Box>
